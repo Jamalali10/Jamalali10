@@ -1,0 +1,62 @@
+# include <iostream>
+#include <cmath>
+
+using namespace std;
+int main() {
+	string characterName = "John";
+	int characterAge;
+	characterAge = 35;
+
+	cout << "There once was a man named " << characterName << endl;
+	cout << "He was " << characterAge << " years old" << endl;
+	characterName = " Mike ";
+	cout << "He liked the name " << characterName << endl;
+	cout << "But did not like being " << characterAge << endl;
+	string phrase = "Giraffe Academy";
+	phrase[0] = 'B';
+	string phrasesub = phrase;
+	phrasesub =phrase.substr (0 ,8);
+	cout << phrasesub<<endl; 
+	
+	cout << 85 + 7 <<endl;
+
+	int wnum = 7;
+	double dnum = 7.8;
+	wnum++;
+	cout << round (dnum) <<endl; 
+	string name;
+	cout << "Enter your name :"<<endl;
+	cin >> name;
+	cout << "Your name is " << name << endl;
+	int age;
+	cout << "Enter your age : "<< endl;
+	cin >> age;
+	cout << "you are " << age << " years old " <<endl;
+	int num1, num2, num3, num4, num5;
+	cout << "Enter first number :" << endl;
+	cin >> num1;
+	cout << "Enter second number :" << endl;
+	cin >> num2;
+	cout<<"Enter third number :" << endl;
+	cin >> num3;
+	cout << "Enter fourth number :" << endl;
+	cin >> num4;
+	cout << "Enter fifth number : " << endl;
+	cin >> num5 ;
+	cout << num1<<endl; 
+	cout << num2<<endl;
+	cout << num3<< endl;
+	cout << num4<< endl;
+	cout << num5<<endl;
+
+	string color, pluralNoun, celebrity;
+	cout << "enter a color :"<<endl;
+	getline(cin, color);
+	cout << "enter a pluralNoun :"<< endl;
+	getline(cin, pluralNoun);
+	cout << "enter a celebrity :"<< endl;
+	getline(cin, celebrity);
+
+	cout << "Roses are " << color << endl;
+	cout << pluralNoun << " are blue " << endl;
+	cout << "I love " << celebrity << endl;
